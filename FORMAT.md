@@ -2,7 +2,7 @@
 
 ## Version
 
-paired-text/1
+paired-text/2
 
 ## Purpose
 
@@ -31,14 +31,14 @@ A source pair may contain more than one underlying golden object when the Englis
 
 source.md must declare at least:
 
-- schema: paired-text/1
+- schema: paired-text/2
 - text-id
 - edition
 - language
 
 translation.md must declare at least:
 
-- schema: paired-text/1
+- schema: paired-text/2
 - text-id
 - source-edition
 - translation-edition
@@ -52,7 +52,7 @@ Use one deterministic HTML comment before each pair.
 
 Recommended source marker:
 
-<!-- pair: TEXT-000001 | golden: U00001 U00002 | role: main_text -->
+<!-- pair: TEXT-000001 | golden: U00001 U00002 | role: main_text | format: verse -->
 
 Recommended translation marker:
 
@@ -61,6 +61,30 @@ Recommended translation marker:
 Projects may replace TEXT with a stable short work code.
 
 The marker syntax must be parseable without rendering Markdown.
+
+### Required format field
+
+Each **source pair** must declare exactly one structural field:
+
+`format: prose | verse | h1 | h2 | h3`
+
+This is the minimal reader-facing structure.
+
+- `prose` — ordinary prose/body text
+- `verse` — verse/body text
+- `h1` — level-1 heading
+- `h2` — level-2 heading
+- `h3` — level-3 heading
+
+The source file is authoritative for `format`. The translation inherits it through the shared pair ID; do not duplicate it in `translation.md`.
+
+For Kanava import this maps deterministically:
+
+- `prose` → `type=prose`, `initial_formatting=body`
+- `verse` → `type=verse`, `initial_formatting=body`
+- `h1` / `h2` / `h3` → `type=prose`, `initial_formatting=h1/h2/h3`
+
+A pair may not cross a format boundary.
 
 ## Pair-ID invariants
 
@@ -109,15 +133,19 @@ A translation pair may be syntactically freer internally than the source, provid
 
 Pair boundaries should represent coherent translation units rather than blindly mirror electronic source anchors.
 
+Before translation begins, derive `paired/source.md` from the fixed golden release and assign every pair its stable ID, golden provenance, and `format`. Translation then fills the matching IDs in `paired/translation.md`.
+
 Prefer grouping adjacent golden objects when:
 
-- one English sentence spans them
+- they form one coherent translation unit
+- they have the same `format`
 - a restored block is translated as one coherent unit
-- a heading and associated content require a single translation unit only when editorially justified
+
+Always split at format changes between `prose`, `verse`, `h1`, `h2`, and `h3`, and at chapter/closing-material boundaries.
 
 Avoid splitting a golden object unless there is a compelling documented reason.
 
-Pair segmentation is editorial structure, not physical manuscript lineation.
+Pair segmentation is editorial structure, not physical manuscript lineation. A grammatical sentence may continue across pair boundaries when structure requires it.
 
 ## Roles
 
@@ -184,6 +212,9 @@ A robust token alignment should ensure every non-whitespace token occurrence on 
 
 A paired-text validator must reject:
 
+- missing `format` on a source pair
+- unsupported `format` value
+- a pair that crosses a format boundary
 - missing pair on either side
 - duplicate pair ID
 - pair order mismatch
@@ -201,6 +232,9 @@ A paired-text validator must reject:
 The validator should also report:
 
 - pair count
+- prose pair count
+- verse pair count
+- h1 / h2 / h3 pair counts
 - golden objects covered
 - restored objects/verses retained
 - note count

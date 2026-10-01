@@ -40,7 +40,9 @@ Do not begin translation of unreleased text. Translation may use only a fixed go
 
 ### Phase C — translation
 
-Translate the fixed golden edition under the active glossary and translation standard. Preserve all source-linked uncertainties and notes. When the translation is released, produce or update the paired-text representation.
+Before translating a fixed golden release, establish `paired/source.md` for that release with stable pair IDs, exact golden provenance, and one required structural field: `format: prose|verse|h1|h2|h3`.
+
+Translate those fixed source pairs under the active glossary and translation standard into the matching IDs in `paired/translation.md`. Preserve all source-linked uncertainties and notes. The translation inherits `format` from the source pair; do not maintain a competing copy on the English side.
 
 Do not start the next chapter or section while the previous section's required bounded release gate is still open.
 
@@ -136,6 +138,8 @@ The reusable canonical publication surface is:
 - paired/translation.md
 
 Both use identical stable pair IDs and order. The pair, not a word token, is the primary identity. One pair may contain multiple golden source objects when that is the coherent translation unit.
+
+Every source pair must declare exactly one `format`: `prose`, `verse`, `h1`, `h2`, or `h3`. A pair may not cross a format boundary. The English side inherits the value through the shared pair ID.
 
 Every golden reading object must map to exactly one pair. Nothing may overlap or disappear.
 

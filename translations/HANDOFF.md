@@ -35,6 +35,7 @@ Update this file before handing translation or QC work to another agent.
 - source release pinned:
 - translation release pinned:
 - pair IDs defined:
+- pair formats classified (prose/verse/h1/h2/h3):
 - unmatched source pairs:
 - unmatched translation pairs:
 - paired validation:

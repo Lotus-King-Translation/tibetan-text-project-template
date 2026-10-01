@@ -29,6 +29,7 @@ Not yet defined.
 - restored main-text objects: 0
 - translation segments complete: 0
 - paired segments complete: 0
+- paired segments with format classified: 0
 
 ## Scope flags
 

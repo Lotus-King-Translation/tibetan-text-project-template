@@ -4,7 +4,8 @@ Organization template for projects that follow one controlled workflow:
 
 1. **Bring the editions together.**
 2. **Create a maintained golden Tibetan edition.**
-3. **Translate the fixed golden edition.**
+3. **Segment the fixed golden edition into reader-ready pairs with `format: prose|verse|h1|h2|h3`.**
+4. **Translate those fixed pairs.**
 
 The repository is intentionally opinionated. Source witnesses, modern transcripts, editorial decisions, the golden reading, and translations remain separate provenance layers. A released golden edition is a maintained reading of an explicitly chosen governing witness; it is not presented as an infallible reconstruction of an original text.
 
@@ -42,7 +43,7 @@ Full scan proofreading, exhaustive manuscript collation, eclectic reconstruction
 
 ## Paired source and translation
 
-After the golden edition and translation are fixed, publish the reusable human-editable pair as:
+After a golden release is fixed, establish reader-ready source pairs before translation. Each source pair has one `format` value: `prose`, `verse`, `h1`, `h2`, or `h3`. Translate into the matching pair IDs in:
 
 - paired/source.md
 - paired/translation.md
