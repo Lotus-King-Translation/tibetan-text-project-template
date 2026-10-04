@@ -139,7 +139,7 @@ Distinct entry: སེམས་; ཤེས་པ་; རྣམ་ཤེས་","
 ལྟ་བ་,View,,,,,"G, line 124",Established
 སྒོམ་པ་,Cultivation,"Keep cultivation-family wording visible, including in its pairing with non-cultivation.","cultivation; cultivate / cultivates / cultivated / cultivating, as grammar requires",,Paired with: སྒོམ་མེད་,"G, line 125; Related mappings: G lines 187; U1, rule 5; U2, discussion of 4.2",Established
 སྤྱོད་པ་,Activity,,,,,"G, line 126",Established
-འབྲས་བུ་,Result,,,,,"G, line 127",Established
+འབྲས་བུ་,Result,,,"Approved P1: use 'fruit' in botanical descriptions and in explicitly sustained tree/fruit metaphors. Retain 'result' in the technical Ground–path–result enumeration and other result constructions. This does not authorize rotating among result, fruit, and fruition for style or extending a metaphor beyond its supported scope.",,"G, line 127; P1: DECISIONS.md#terminology-clarification-2026-10-04; issue #2 G17; MTP-000461, MTP-000468, MTP-000474 and MTP-000483",Established; P1 approved botanical and explicitly sustained tree/fruit-metaphor exception only
 ལྷན་ཅིག་སྐྱེས་པའི་མ་རིག་པ་,Co-emergent ignorance,,,,Contains: མ་རིག་པ་,"G, line 128; Related mappings: G lines 84",Established
 ལྷུག་པ་,Letting be,,,,,"G, line 129",Established
 ལྷུན་གྲུབ་,Spontaneous presence,,,,,"G, line 130",Established
@@ -158,8 +158,8 @@ Distinct entry: ཐ་མལ་གྱི་ཤེས་པ་; བློ་; ཡ
 ཧད་དེ་,Abruptly seeing,,,,,"G, line 141",Established
 ཝལ་ལེ་བ་,Vividly clear,,,,Shares original English gloss: ཝལ་གྱིས་,"G, line 142; Related mappings: G lines 143; G observation: shared English output retained; relationship rationale not supplied",Established; shared English gloss preserved. Its relationship rationale is not yet documented
 ཝལ་གྱིས་,Vividly clear,,,,Shares original English gloss: ཝལ་ལེ་བ་,"G, line 143; Related mappings: G lines 142; G observation: shared English output retained; relationship rationale not supplied",Established; shared English gloss preserved. Its relationship rationale is not yet documented
-གཞི་,The Ground,,,,Component of: གཞི་སྣང་,"G, line 144; Related mappings: G lines 145",Established
-གཞི་སྣང་,Ground-appearance,,,,Contains: གཞི་,"G, line 145; Related mappings: G lines 144",Established
+གཞི་,The Ground,"Approved P1 presentation rule: use 'Ground' for the established technical use in running English. This does not classify every physical or support-related ground as technical Ground, or settle a disputed sense; review the source construction separately.",Retain capital G in technical 'Ground'. Treat 'the' as an ordinary article: use it only where grammar requires it and capitalize it only under normal sentence/title rules. The canonical display assignment 'The Ground' is unchanged.,,Component of: གཞི་སྣང་,"G, line 144; Related mappings: G lines 145; P1: DECISIONS.md#terminology-clarification-2026-10-04; issue #2 G13; MTP-000012, MTP-000180 and MTP-000181; SMB-000008 and SMB-000018",Established; P1 approved technical capitalization and article treatment only; disputed support/other senses remain open
+གཞི་སྣང་,Ground-appearance,,"Approved P1 presentation rule: use 'Ground-appearance' consistently for the established technical expression, retaining capital G and the existing hyphenation. Do not adopt a competing chapter-local lowercase convention. Other faithful grammatical realization remains governed by the general rule.",,Contains: གཞི་,"G, line 145; Related mappings: G lines 144; P1: DECISIONS.md#terminology-clarification-2026-10-04; issue #2 G13; MTP-000180 and MTP-000181; DTG-002391",Established; P1 approved technical capitalization and hyphenation rule; canonical assignment unchanged
 གཞལ་བྱ་,Object of comprehension,,,,,"G, line 146",Established
 བཅོས་བསླད་,Contrivance and adulteration,Keep the contrivance-family vocabulary identifiable across these listed entries; do not reuse it casually for unrelated technical families.,,,Lexical family: བཟོ་བཅོས་; མ་བཅོས་; བཟོ་བྱེད་,"G, line 147; Related mappings: G lines 81, 91, 182; U1, rule 4",Established
 རྩལ་,Expressiveness,,,,,"G, line 148",Established
@@ -209,7 +209,7 @@ Distinct entry: སེམས་","G, line 169; Related mappings: G lines 132, 13
 གཟུང་དྲན་,Holding mindfulness,,,,Contains: དྲན་པ་,"G, line 185; Related mappings: G lines 158",Established
 རང་གསལ་གྱི་དྲན་པ་,Self-clear mindfulness,,,,Contains: དྲན་པ་,"G, line 186; Related mappings: G lines 158",Established
 སྒོམ་མེད་,Non-cultivation,Preserve 'non-cultivation' and its visible relationship to སྒོམ་པ་.,,,Paired with: སྒོམ་པ་,"G, line 187; Related mappings: G lines 125; U1, rule 5",Established
-རྒྱུད་,Continuum,Keep the listed 'continuum' entry. Do not assume that the differently written རྒྱུན་ has already been assigned the same English technical term.,,,,"G, line 188; U2, terminology preservation; G, coverage observation",Established; རྒྱུན་ is absent from the supplied glossary and requires its own reviewed treatment
+རྒྱུད་,Continuum,Keep the listed 'continuum' entry. Do not assume that the differently written རྒྱུན་ has already been assigned the same English technical term.,,"Approved P1: use 'tantra' when the occurrence unambiguously denotes a tantric scripture as a text or textual genre, including titles, colophons, and explicit references to such works. Retain 'continuum' in other applicable senses. Established whole expressions, including ལུ་གུ་རྒྱུད་ → vajra chains, take precedence. An ambiguous occurrence remains a local review question; proximity to a title does not activate this exception.",,"G, line 188; U2, terminology preservation; G, coverage observation; P1: DECISIONS.md#terminology-clarification-2026-10-04; issue #2 G11; MTP-000005; SMB-000001, SMB-000013 and SMB-000102",Established; རྒྱུན་ is absent from the supplied glossary and requires its own reviewed treatment; P1 approved literary-use exception only; ambiguous senses remain for local review
 བྱུང་གནས་འགྲོ་གསུམ་,"The threefold investigation of arising, abiding, and going",,,,,"G, line 189",Established
 རང་ཐོག་ཏུ་འཇོག་,Resting upon itself,,,,,"G, line 190",Established
 དེ་ཁའི་ཐོག་ཏུ་བཞག་,Rest right on that,,,,,"G, line 191",Established
@@ -219,7 +219,7 @@ Distinct entry: སེམས་","G, line 169; Related mappings: G lines 132, 13
 དབང་པོ་རབ་,Superior faculty,,,,,"G, line 195",Established
 དབང་པོ་འབྲིང་,Middling faculty,,,,,"G, line 196",Established
 དབང་པོ་ཐ་མ་,Inferior faculty,,,,,"G, line 197",Established
-སྒྲ་,Word,,,,Component of: སྒྲ་དོན་; སྒྲ་དོན་འདྲེས་རུང་,"G, line 198; Related mappings: G lines 23, 200",Established
+སྒྲ་,Word,,,"Approved P1: use 'sound' for an auditory phenomenon, including clear sensory and musical-instrument contexts. Retain established linguistic uses and whole expressions, including སྒྲ་དོན་ → word and meaning. An appearance-related or speech-related occurrence does not by itself establish the auditory sense; uncertain extensions remain for local review.",Component of: སྒྲ་དོན་; སྒྲ་དོན་འདྲེས་རུང་,"G, line 198; Related mappings: G lines 23, 200; P1: DECISIONS.md#terminology-clarification-2026-10-04; issue #2 G14; DTG-001188 and DTG-002074; MTP-000462 and MTP-000505",Established; P1 approved auditory-use exception only; uncertain extensions remain for local review
 དོན་,Meaning,,,,Component of: སྒྲ་དོན་; མིང་དོན་; མིང་དོན་འདྲེས་པ་; སྒྲ་དོན་འདྲེས་རུང་; དོན་སྤྱི་,"G, line 199; Related mappings: G lines 23, 55, 86, 200, 201",Established
 སྒྲ་དོན་,Word and meaning,,,,"Contains: སྒྲ་; དོན་
 Component of: སྒྲ་དོན་འདྲེས་རུང་","G, line 200; Related mappings: G lines 23, 198, 199",Established

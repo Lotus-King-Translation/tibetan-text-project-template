@@ -1,6 +1,6 @@
 # Tibetan–English LLM translation standard
 
-**Guidance and independent QC · Version 2.0 · 26 September 2026**
+**Guidance and independent QC · Version 2.0.1 · 4 October 2026**
 
 This document combines the translation instructions and QC procedure. Use it with the current eight-column glossary and the Tibetan source. It does not replace or alter the glossary.
 
@@ -16,13 +16,14 @@ The two roles are separate. Do not perform both unless requested, and do not let
 
 **Superseded document:** do not load `revised_translation_guidance.md` as active guidance alongside this version. Its incompatible rules and tests have been replaced, especially the rejected objection to **ordinary mind**.
 
-The documents define a working LLM draft and review process, not a final human edition. The 30 regression fixtures in Part II are tests to run, not a claim of measured model performance.
+The documents define a working LLM draft and review process, not a final human edition. The 34 regression fixtures in Part II are tests to run, not a claim of measured model performance.
 
 ---
 
 # Part I — Translation guidance
 
-**Version 2.0 · 26 September 2026**  
+**Version 2.0.1 · 4 October 2026**
+
 **Purpose:** a source-aligned, terminology-controlled, annotated working translation for subsequent human editing  
 **Companion:** `tibetan_translation_qc_v2.md`  
 **Replaces:** `revised_translation_guidance.md` and incompatible recommendations in the initial translation assessment
@@ -126,6 +127,8 @@ Before building a translation from components, check for a complete entry. Examp
 
 Do not “correct” these to mechanically expanded component renderings. Their assignments do not authorize shortening the corresponding standalone terms. A longer text match is a candidate for analysis, not proof that the phrase has been correctly identified. Confirm boundaries, construction, and context. [G:65, 101, 120, 139, 163]
 
+When an explicit Tibetan modifier overlaps with a component already present in an established English equivalent, determine its function in the complete construction. Do not duplicate the English component merely to give each source element a separate word, and do not absorb a modifier that contributes additional meaning. Record a materially uncertain relationship in the existing note or usage record. This is not automatic approval of either treatment at a disputed locus. [P1]
+
 ### 3.4 Reserved English and reversibility
 
 Reserve complete technical expressions and their identifiable families; avoid casual reassignment to unrelated Tibetan terms. Check both directions: repeated Tibetan should not drift between unrelated English terms, and a technical English expression should not silently acquire unrelated Tibetan sources.
@@ -174,6 +177,8 @@ Account for content in both directions: every substantive source unit must have 
 A different contextual sense may require different English. It does not permit free synonym selection. An approved exception needs an identifiable source use, allowed wording, triggering conditions, exclusions, evidence, and approval scope. A broad label such as “Dzogchen context” is not an adequate trigger where the same text uses the term in several ways.
 
 Before changing wording, determine whether the problem is already covered by a whole-expression entry or by grammar. These are not contextual exceptions.
+
+Once adopted into a project's active glossary version, an approved shared usage governs occurrences meeting its stated conditions. A different chapter or book is not, by itself, grounds for different terminology. Reuse the existing decision and record only genuinely new sense or construction questions; retain occurrence traceability and the visible first-use note required below. [P1]
 
 When a canonical application appears materially wrong and no approved exception covers it:
 
@@ -238,7 +243,7 @@ Keep an unchanged copy of the Tibetan and the current glossary. Use separate loo
 
 For glossary headwords, retain one Tibetan form per row and the final-tsheg convention. Do not impose that headword convention on source quotations, where punctuation and attached forms must remain as supplied. Preserve original order and original assignments unless a separate glossary update is authorized.
 
-Use normal sentence capitalization in running prose. An initial capital in the supplied glossary is not a command to capitalize a term mid-sentence. Retain proper names and explicitly established exceptional capitalization. Do not infer a capitalization exception merely from the glossary's initial capital. Where an expression has potentially intentional internal capitals, such as **The Ground**, **Cutting Through**, or **Guru Yoga**, record an unresolved presentation choice once and use it consistently; do not silently rewrite the original entry. [G:13, 144, 175; U2]
+Use normal sentence capitalization in running prose. An initial capital in the supplied glossary is not a command to capitalize a term mid-sentence. Retain proper names and explicitly approved glossary presentation rules; apply those rules consistently across independently readable sections, without a competing chapter-local convention. Do not infer an exception merely from an initial capital. For potentially intentional internal capitals not yet covered by an approved rule, such as **Cutting Through** or **Guru Yoga**, record an unresolved presentation choice once and use it consistently; do not silently rewrite the original entry. Term-specific decisions remain in the glossary rows. [G:13, 144, 175; U2; P1]
 
 For future glossary additions, common headwords normally use lowercase; proper names and explicit exceptions retain their capitals. Use no terminal period on an English gloss, maintain the established hyphenation conventions, and keep number consistent where the source meaning permits. Do not force singular or plural across different senses or constructions. Do not migrate the existing 222 entries as part of this translation or QC task.
 
@@ -279,7 +284,7 @@ Do not call an output complete when a passage has merely disappeared. An untrans
 Use this instruction with this guidance, the current glossary, the Tibetan source, and any explicit decision records:
 
 ```text
-Task: TRANSLATE under Tibetan–English LLM translation guidance v2.0.
+Task: TRANSLATE under Tibetan–English LLM translation guidance v2.0.1.
 
 Produce an annotated working translation of the supplied Tibetan, not a final
 stylistic rewrite. Treat the original glossary assignments as established.
@@ -316,6 +321,8 @@ not as a substitute for producing the translation requested in this run.
 
 **U3 — Agreed data structure:** keep Tibetan and English as the authoritative pair, with the six supplementary columns. Preserve original data and separate established assignments from proposed uses.
 
+**P1 — Bounded template clarification, 4 October 2026:** the owner approved implementation of five existing glossary-row clarifications, the three short guidance amendments and focused regression updates. See [the exact decision and limits](../DECISIONS.md#terminology-clarification-2026-10-04) and [issue #2](https://github.com/Lotus-King-Translation/tibetan-text-project-template/issues/2) for the source-linked G findings. The operative contextual/presentation rules are in the current CSV glossary's supplementary columns; all 222 base assignments remain unchanged. The cited sibling passages are evidence, not translations revised by this patch.
+
 No external doctrinal research was added to this guidance. General procedures and templates are the present implementation of these project decisions. Earlier assistant assessments that conflict with this version, including the rejected “unqualified སེམས་ must not become ordinary mind” test, must not be reused as active rules.
 
 
@@ -323,7 +330,8 @@ No external doctrinal research was added to this guidance. General procedures an
 
 # Part II — Independent QC
 
-**Version 2.0 · 26 September 2026**  
+**Version 2.0.1 · 4 October 2026**
+
 **Purpose:** independent, source-based quality control of a terminology-controlled LLM working draft  
 **Governing companion:** `tibetan_translation_guidance_v2.md`  
 **Default mode:** review and propose minimal corrections; do not rewrite the source or glossary
@@ -568,21 +576,21 @@ For each fixture record the tested output, observed result, evidence, and pass/f
 | R01 | སེམས་ rendered **ordinary mind**; reviewer says “ordinary” is an addition. [G:137; U2] | Preserve the term and reject that reason for correction |
 | R02 | Source describes སེམས་ as primordially buddha. [T:23] | Do not infer that **ordinary mind** must become generic **mind** |
 | R03 | ཐ་མལ་གྱི་ཤེས་པ་ and སེམས་ both become **ordinary mind**. [G:137, 169] | Restore the separate **ordinary knowing** assignment where applicable |
-| R04 | རང་བཞིན་གྱིས་ is awkwardly constructed; proposed fix deletes **intrinsic**. [G:40; T:41] | Repair or flag the construction while retaining **intrinsic nature**; do not claim a pending construction is already approved |
+| R04 | རང་བཞིན་གྱིས་ is awkwardly constructed; proposed fix deletes **intrinsic**. Also DTG-001760/U03653: རང་བཞིན་ becomes **intrinsically**. [G:40; T:41; P1, issue #2/G02] | Repair or flag the construction while retaining **intrinsic nature**; neither component may disappear. Do not claim a pending construction is already approved |
 | R05 | རྣམ་རྟོག་ uses **differentiating conceptualization**. [G:62] | Do not reopen the canonical term because another rendering is conventional |
 | R06 | **Thoughts** silently replaces རྣམ་རྟོག་ on the authority of an open-question note. [E] | Flag unauthorized activation; require a scoped provisional record or explicit approval |
 | R07 | རྟོག་ and རྟོགས་པ་ are merged by fuzzy matching. [G:45, 204] | Reject the conflation and preserve the separate lexical items |
 | R08 | ཤེས་རབ་ and ཡེ་ཤེས་ both become **wisdom**. [G:104, 218] | Preserve **discerning knowing** and **primordial knowing** |
 | R09 | ཉམས་མྱོང་ becomes **experience** or **realization** without authority. [G:164–165, 204] | Flag loss of the **experiential acquaintance** assignment |
 | R10 | ཅེར་མཐོང་ and ཅེར་གཞག་ both become **naked seeing**. [G:26–27] | Preserve the seeing/resting distinction |
-| R11 | Reviewer changes **four visions** to **four appearances** for component consistency. [G:64–65] | Reject the correction; the complete entry governs |
+| R11 | Reviewer changes **four visions** to **four appearances** for component consistency. Also DTG-002278/U04690: དབང་པོའི་སྒོ་ becomes **gates of the faculties** rather than **sense gates**. [G:64–65, 80; P1, issue #2/G04] | Reject component reconstruction where the established complete entry governs. Check the source boundaries; do not force every differently worded gate expression into that entry |
 | R12 | Reviewer inserts **special** into the established **union of calm abiding and insight**. [G:162–163] | Reject the claimed mandatory correction; preserve the original complete mapping |
 | R13 | **Wind-mind** and **mental consciousness** are mechanically expanded. [G:99–101, 120, 137] | Preserve the established whole expressions without generalizing their shortening |
 | R14 | **Discriminating primordial knowing** is rebuilt from individual conceptual-thought components. [G:139] | Preserve the lexicalized complete expression |
 | R15 | Both original gaze entries use **gaze**. [G:47–48] | Do not invent a new English distinction; a missing rationale is documentation work |
 | R16 | A checker flags **knowing** inside **primordial knowing** as a collision. [G:104, 132] | Reject the substring-only false positive |
 | R17 | A sentence requires **clearly and distinctly** or **freedom from doing**. [G:76, 135–136; U2] | Permit faithful grammatical realization; do not require the display string |
-| R18 | **Ordinary mind** becomes **ordinary mind** mid-sentence. [G:137; U2] | Treat it as normal prose case, not a changed lexical assignment |
+| R18 | **Ordinary mind** becomes **ordinary mind** mid-sentence. Technical གཞི་ / གཞི་སྣང་ use **Ground / Ground-appearance** under P1; contrast a physical/support ground construction. [G:137; U2; P1, issue #2/G13] | Allow normal prose case and article grammar, retain the approved technical capital G and hyphenation, and reject competing chapter-local casing. Do not use capitalization to decide an ambiguous sense or capitalize every physical ground |
 | R19 | དགག་སྒྲུབ་ becomes **affirming and denying** without source reversal. [G:19] | Preserve the source pair's order |
 | R20 | Suppression exercise is translated as **deny**, inferred from the compound entry. [T:17; E] | Flag the contextual verb problem; treat the standalone entry and the thought-use decision separately |
 | R21 | Daytime-appearance passage uses **overcome**; proposed replacement is automatically added as an established entry. [T:31; E] | Correct/flag the action, but reject silent glossary promotion and require systematic family review |
@@ -595,6 +603,10 @@ For each fixture record the tested output, observed result, evidence, and pass/f
 | R28 | Blank supplementary fields or parent-row **Established** are treated as approval of an alternative. [E introduction] | Preserve original-pair authority and reject the inferred usage approval |
 | R29 | A formatting pass changes source spellings/final punctuation, or a review of one section claims whole-text coverage. | Reject the unauthorized source edit or overclaimed coverage; distinguish mechanical checks from semantic review |
 | R30 | A QC fix makes prose more conventional but erases a protected component or turns a provisional use into a later default. | Fail the correction under Q9; retain or restore the lexical commitment and scoped status |
+| R31 | Clear scripture/title རྒྱུད་, e.g. MTP-000005, versus a nonliterary continuum construction, e.g. SMB-000013, and the established ལུ་གུ་རྒྱུད་ compound. [P1, issue #2/G11] | Use **tantra** only for the supported literary sense; retain **continuum** in other applicable senses and **vajra chains** for its whole expression. Do not infer the literary sense from proximity to a title; flag ambiguous applications |
+| R32 | Auditory སྒྲ་ in a sensory/instrument list, e.g. MTP-000462 or DTG-002074, versus the established སྒྲ་དོན་ expression; MTP-000505 tests an appearance-related extension. [P1, issue #2/G14] | Use **sound** for supported auditory phenomena, retain **word and meaning**, and reject a blanket sound-for-word substitution. Review the appearance-related occurrence's actual sense; its setting alone does not activate the exception |
+| R33 | Botanical འབྲས་བུ་ and sustained tree/body correspondences, MTP-000461/000468/000474, versus the Ground–path–result enumeration at MTP-000483. [P1, issue #2/G17] | Use **fruit** within the supported botanical/metaphorical scope; retain **result** in the technical enumeration. Reject stylistic rotation among result, fruit and fruition or extension beyond the sustained metaphor |
+| R34 | Explicit རྡོ་རྗེ preceding ལུ་གུ་རྒྱུད་ at MTP-000016/000404 and SMB-000087; contrast overlapping English content with a genuinely additional qualification. [P1, issue #2/G19] | Apply Part I §3.3: reject automatic duplication and automatic absorption. Represent the component once only where construction-level analysis supports it without loss; preserve genuine additional meaning or flag the relationship unresolved. These cited loci are not settled by this fixture alone |
 
 These tests do not exhaust Tibetan grammar or establish model-wide accuracy. Add a source-linked regression fixture whenever an approved glossary decision or recurring error exposes a new failure mode. Do not rewrite existing expected results solely because a model repeatedly disagrees with them.
 
@@ -611,7 +623,7 @@ If a report gives counts or rates, define the denominator and coverage. “No ex
 Use this instruction with this QC procedure, the translation guidance, current glossary, Tibetan source, draft, and supplied notes/decisions:
 
 ```text
-Task: QC under Tibetan–English LLM translation QC v2.0.
+Task: QC under Tibetan–English LLM translation QC v2.0.1.
 
 Review the draft independently against the supplied Tibetan, current glossary,
 and project decisions. Declare the exact scope and missing evidence. Preserve
@@ -635,6 +647,8 @@ user explicitly requests revision as well as QC.
 ```
 
 ## Source register and revision note
+
+Version 2.0.1 adds P1 as defined in Part I, extends R04/R11/R18 and adds R31–R34. Existing fixture IDs and the other expected distinctions are retained. This is a bounded policy/documentation update, not a new claim of tested model performance.
 
 G, E, T, D, and U1–U3 refer to the source/decision register in `tibetan_translation_guidance_v2.md`. G is the original 222-entry glossary; E is the expanded eight-column Markdown glossary; T is the supplied Tibetan source; D is the earlier English draft. File-line references identify locations in those supplied files, not independently verified editions.
 
