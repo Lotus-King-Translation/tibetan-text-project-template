@@ -1,8 +1,8 @@
 # Tibetan–English LLM translation standard
 
-**Guidance and independent QC · Version 2.0.2 · 5 October 2026**
+**Guidance, independent QC and post-translation review · Version 2.1.0 · 5 October 2026**
 
-This document combines the translation instructions and QC procedure. Use it with the current eight-column glossary and the Tibetan source. It does not replace or alter the glossary.
+This document combines translation, independent QC and review of completed English works. Use it with the current eight-column glossary and the Tibetan source. It does not replace or alter the glossary.
 
 ## How to use this document
 
@@ -10,22 +10,24 @@ This document combines the translation instructions and QC procedure. Use it wit
 
 **QC run:** provide the same materials plus the English draft and its notes. Set the task to **QC**. Part II governs the independent review; Part I remains its terminology and translation policy. Do not call the translator's own self-check independent QC.
 
-The two roles are separate. Do not perform both unless requested, and do not let a QC run silently rewrite the source, glossary, or original draft.
+**Completed-work review:** set the task to **POST_TRANSLATION_REVIEW**. Part III defines Phase D for a reviewer receiving another agent's completed English. It uses Parts I–II and the shared controls in §8.1. Declare review-only or explicitly authorized review-and-revise.
+
+Drafting and independent review remain separate. A review must not silently rewrite the source, glossary, or original draft.
 
 **Active terminology:** the original assignments remain established. The owner-approved P2 additions are active within their recorded scope; retention-only policies do not resolve uncertain meanings or syntax. Other pending supplemental uses remain pending. New operational rules are not blanket approval of alternatives. [P2]
 
 **Superseded document:** do not load `revised_translation_guidance.md` as active guidance alongside this version. Its incompatible rules and tests have been replaced, especially the rejected objection to **ordinary mind**.
 
-The documents define a working LLM draft and review process, not a final human edition. The 57 regression fixtures in Part II are tests to run, not a claim of measured model performance.
+The documents define a working LLM draft and review process, not a final human edition. The 63 regression fixtures in Part II are tests to run, not a claim of measured model performance.
 
 ---
 
 # Part I — Translation guidance
 
-**Version 2.0.2 · 5 October 2026**
+**Version 2.1.0 · 5 October 2026**
 
 **Purpose:** a source-aligned, terminology-controlled, annotated working translation for subsequent human editing  
-**Companion:** `tibetan_translation_qc_v2.md`  
+**Companion:** Part II of this document
 **Replaces:** `revised_translation_guidance.md` and incompatible recommendations in the initial translation assessment
 
 > Preserve the established Tibetan–English vocabulary. Make its grammatical use accurate, its contextual exceptions controlled, and unresolved matters visible. Do not use translation or review as an occasion to renegotiate established terminology.
@@ -239,6 +241,26 @@ Likewise, the established **denying and affirming** compound does not by itself 
 
 Prioritize gaps affecting meaning, technical consistency, or recurrent usage. Do not require every ordinary function word to become a technical glossary entry.
 
+<a id="shared-review-controls"></a>
+
+### 8.1 Shared review controls carried forward from the four-work audit
+
+These are operative instructions for translation and review, not a second glossary. First consult the adopted CSV: an approved assignment governs within its scope. For a genuinely unapproved choice, use the source-linked provisional procedure in §6; do not silently select a new series default or stop the rest of the work waiting on an issue. Record the actual construction, alternatives tested, and the narrow conclusion in the existing usage/review record. A supported local interpretation and approval of a shared lexical assignment are different decisions.
+
+| Audit group and expression | Required treatment when encountered |
+| --- | --- |
+| U01 / U03 — honorifics and names | Use the approved full/short **Blessed One** and proper name **Vajradhara**. English honorifics are required; do not turn that policy into translation of all proper names. For དེ་བཞིན་གཤེགས་པ (Tathāgata) supply a source-linked English proposal if no approved entry governs. Keep རྡོ་རྗེ་འཛིན་(པ), currently vajra-holder/holder of the vajra, distinct from རྡོ་རྗེ་འཆང་; a similar English title does not prove identity. |
+| U02 — ལྷ་དབང་དགའ་བྱེད་ / དགའ་བྱེད་ | Collect recurring names in the existing usage record, including full/short forms and referents. For Joy-Maker/Delight-Maker/Maker of Joy, compare DTG-001028/001736/002090/002539 and recommend one source-supported form with all affected loci. Do not silently equate different figures or create a glossary row for every descriptive epithet. |
+| U05 — mental/affliction family | Review གཏི་མུག (dull confusion/bewilderment/deluded dullness), རྨོངས་པ (bewilderment), and རྨུགས་(པ) (stupefaction/torpid) together. Preserve established མ་རིག་པ **ignorance**, འཁྲུལ་པ **delusion**, and technical བྱིང་བ **dullness**. Include the encountered འདོད་ཆགས desire, ཞེ་སྡང hatred, ང་རྒྱལ pride, ཕྲག་དོག jealousy, and ཁོང་ཁྲོ anger in the collision check, without presenting those unlisted labels as newly approved. Compare actual lists and oppositions (DTG-002423; MTP-000212/000343/000367; SMB-000044; BMD-000063/000064); do not invent a graded taxonomy or collapse the family into ignorance. |
+| U06 — བསམ་གཏན་ | Preserve its distinction from established ཏིང་ངེ་འཛིན་ **deep absorption**, especially when both occur (MTP-000338). Test the recorded **meditative stability** proposal against process/state grammar and the existing absorption/stabilization/concentration variants. Do not normalize both Tibetan expressions to absorption or invent a meditation hierarchy. |
+| U07 — སེམས་ཉིད་ | Retain **ordinary mind** and determine whether ཉིད is intensive or belongs to a lexicalized construction. The owner's preference is **ordinary mind itself**, not permission to replace every nature-construction blindly. Compare DTG-000332/001115 with MTP-000088/000244; justify any retained nature-of rendering and do not reduce either to generic mind. |
+| U08 — ཐབས་ | Test **means** in the technical pairing with **discerning knowing** and **method** for an actual procedure; book or chapter preference is not a trigger. Record the construction rather than rotating synonyms. Exclude the idiom ཐབས་ཅིག (together). Comparators: SMB-000012/000058/000096; BMD-000032. |
+| U10 — ཀུན་རྫོབ་ / དོན་དམ་ | Evaluate the owner's preferred **superficial / superfactual** pair together at exact source occurrences, including the sphere and two-truth constructions. Do not automatically change every English relative/conventional/ultimate. མཐར་ཐུག (culmination/ultimate in BMD-000070–000076) is a different expression. Preserve the pair and document its contextual scope before recommending a shared addition. |
+| U12 — ཚིག་ | Test **phrase** for a formulated verbal unit and where སྒྲ / ཚིག / མིང are explicitly contrasted (DTG-001188). Test generic **word(s)** only where that does not erase the source distinction. Preserve established **word**, **word and meaning**, and **name** entries; do not let the auditory sound exception settle this separate term. Comparators: SMB-000012/000059; MTP-000539; BMD-000073. |
+| U13 — མདངས་ | Compare luminous **luster/lustre** with broader **splendor** against DTG-000151/001442 and MTP-000302/000422; retain the rationale for the narrower luster proposal. Check གཟི་མདངས and བཀྲག separately. Never normalize the spelling into established གདངས་ **radiance**. Treat English spelling separately from source meaning. |
+
+The other missing-term audit groups are implemented in the P2 glossary, including **sacred pledge**, **transmission**, **key point**, **core**, and U15–U44. Apply their stated conditions, not the superseded alternatives in historical notes. In particular keep **essence / core / pure extract / quintessence**, **self-knowing / self-awareness / self-recognition**, **matter / karmic being**, and technical versus ordinary senses identifiable. A source assertion that relates these terms is not grounds to merge their labels. [P2; P3]
+
 ## 9. Source preservation and presentation
 
 Keep an unchanged copy of the Tibetan and the current glossary. Use separate lookup keys for any agreed whitespace, punctuation, or character normalization; do not overwrite the source. Record normalization operations. They do not authorize spelling correction, lemmatization, or conflation of distinct lexical items.
@@ -288,7 +310,7 @@ Do not call an output complete when a passage has merely disappeared. An untrans
 Use this instruction with this guidance, the current glossary, the Tibetan source, and any explicit decision records:
 
 ```text
-Task: TRANSLATE under Tibetan–English LLM translation guidance v2.0.2.
+Task: TRANSLATE under Tibetan–English LLM translation guidance v2.1.0.
 
 Produce an annotated working translation of the supplied Tibetan, not a final
 stylistic rewrite. Treat the original glossary assignments as established.
@@ -329,6 +351,8 @@ not as a substitute for producing the translation requested in this run.
 
 **P2 — Approved issue #1 additions, 5 October 2026:** the owner approved the U15–U44 proposals, replacing the proposed insentient-matter label with **matter** and confirming **karmic being**. Earlier firm decisions are encoded where a specific label was settled; unrelated open questions are not promoted. See [the exact scope and outstanding decisions](../DECISIONS.md#terminology-expansion-2026-10-05). The glossary records source-linked conditions, grammatical forms, distinctions and retention-only citta policy. No sibling translation is revised by this template patch.
 
+**P3 — Captured audit lessons and Phase D, 5 October 2026:** the owner directed incorporation of both audit issues into the template and a bounded post-translation review phase. Part I §8.1 supplies the shared controls; Part III makes the completed-work review executable without issue threads. See [scope, capture map and propagation](../DECISIONS.md#post-translation-review-2026-10-05). This is review authority, not blanket approval of undecided English labels.
+
 No external doctrinal research was added to this guidance. General procedures and templates are the present implementation of these project decisions. Earlier assistant assessments that conflict with this version, including the rejected “unqualified སེམས་ must not become ordinary mind” test, must not be reused as active rules.
 
 
@@ -336,10 +360,10 @@ No external doctrinal research was added to this guidance. General procedures an
 
 # Part II — Independent QC
 
-**Version 2.0.2 · 5 October 2026**
+**Version 2.1.0 · 5 October 2026**
 
 **Purpose:** independent, source-based quality control of a terminology-controlled LLM working draft  
-**Governing companion:** `tibetan_translation_guidance_v2.md`  
+**Governing companion:** Part I of this document
 **Default mode:** review and propose minimal corrections; do not rewrite the source or glossary
 
 > Check whether the draft preserves the source through this project's established terminology. Then check that the proposed corrections preserve the same standard.
@@ -626,7 +650,7 @@ For each fixture record the tested output, observed result, evidence, and pass/f
 | R45 | Every passing-beyond phrase or chapter title is changed to decisive resolution. [P2, U22; DTG-001042; DTG-001438; MTP-000099] | Use decisive resolution for settling a view/question and passing beyond only for its supported different sense; check the title construction and do not equate བཟློག. |
 | R46 | Tenets always becomes tenet systems, or buddha/pure is inserted into every realm. [P2, U23; U24; DTG-000891; DTG-002202; BMD-000082] | Distinguish systems from constituent assertions; use unqualified realm unless the qualification is supported. These are scope decisions, not global English substitutions. |
 | R47 | Vocatives become Listen or Alas regardless of rhetoric; kye ma plus awareness is mistaken for ignorance. [P2, U25; MTP-000570; MTP-000398; BMD-000010; BMD-000070] | Use the approved vocative/exclamation function, preserve repetition and separate listen verbs, and check boundaries. Lament must be supported; do not manufacture མ་རིག from a boundary-crossing substring. |
-| R48 | Object/domain, entity and matter become interchangeable or negative entity wording is restricted to material presence. [P2, U27; U28; MTP-000386; MTP-000486; MTP-000577; BMD-000022] | Apply each approved scope. Preserve object of focus, distinguish geographical/domain uses, and do not impose materiality on every entity or repair unresolved དངོས་ཏེ. |
+| R48 | Object/domain, entity and matter become interchangeable or negative entity wording is restricted to material presence. [P2, U27; U28; MTP-000386; MTP-000486; MTP-000577; BMD-000022] | Apply each approved scope. Preserve object of focus, distinguish geographical/domain uses, and do not impose materiality on every entity or repair unresolved དངོས་མ. |
 | R49 | Familiarity is rejected as a synonym or open sky/midair is merged with space. [P2, U30; U31; MTP-000155; SMB-000060; SMB-000075] | Allow process/state/verb realization of familiarization; do not confuse cultivation. Use midair positionally and retain space/basic-space distinctions; reject accidental substring matches. |
 | R50 | All conviction becomes confidence, or a relational trust is forced into a technical numbered set. [P2, U32; DTG-001030; MTP-000115; SMB-000060] | Preserve conviction and source-supported number; trust requires a genuine relational use. Do not merge faith or confident devotion. |
 | R51 | Self-knowing/self-awareness/one’s own knowing are made identical to self-recognition. [P2, U33; U44; MTP-000261; SMB-000024; SMB-000035; DTG-002404] | Keep the knowing, awareness and recognition expressions distinct. Choose technical self-form versus ordinary possession from the actual construction; hyphenation alone does not decide it. |
@@ -636,6 +660,13 @@ For each fixture record the tested output, observed result, evidence, and pass/f
 | R55 | Identity is imposed on first-person reference or sovereign is freely substituted in a descriptive clause. [P2, U39; MTP-000582; BMD-000011; BMD-000056] | Use identity for the descriptive scope and self-reference forms when grammatical. A title/lordship reading remains separately justified; labels do not settle attachment. |
 | R56 | Spiritual/oral is dropped because no separate source word is identified, or spiritual accomplishment is limited to final awakening. [P2, U41; U43; DTG-002608; BMD-000110; MTP-000261] | Retain the approved complete equivalents and source modifiers. Preserve generic accomplishment/attainment distinctions; oral instruction can be written, and its label does not prove disjointness from pith instruction. |
 | R57 | House of light becomes lighthouse or an asserted anatomical structure. [P2, U42; BMD-000096; SMB-000097] | Keep house of light and the exact compact/expanded source forms. Neither a nautical building nor an anatomical identity follows automatically from the metaphor. |
+
+| R58 | A 283-entry scan or source-reconciliation build is called a complete independent English review. [P3; Part III §2] | Require actual pair-by-pair Tibetan–English review, including main/closing material, and a distinct reviewer; distinguish mechanical coverage, semantic coverage and readiness. |
+| R59 | After adopting P1/P2, an old proposal note overrides the new rule, or an already repaired finding is filed again. [P3; BMD-000081; Part III §3] | Inspect current English, source and approval version; update active note disposition without rewriting historical records or treating a previous defect as current. |
+| R60 | Four agents silently choose different defaults for an unapproved related-term family. [P3; Part I §8.1] | Apply the shared constraints, compare exact source distinctions and report evidenced proposals without activating separate book glossaries; finish the bounded work with explicit unresolved dispositions. |
+| R61 | A revision fixes a glossary word but changes its genitive/negation or leaves a reading edition on old English. [P3; Part III §2] | Recheck the whole changed clause and neighbors; derive dependent views from the declared canonical input and verify note/status consistency. A term-string pass does not clear the fix. |
+| R62 | A review-only task modifies canonical English or overwrites a book's decisions with template placeholders. [P3; Part III §1] | Save findings/proposals only; require revision authority for English changes and merge policy records without losing local decisions, fixed inputs or history. |
+| R63 | Closing a template audit or finishing a flagged review is treated as clean publication approval. [P3; Part III §4] | Separate template capture, reviewed coverage and text readiness. Unread pairs mean partial coverage; unresolved findings remain visible; no release tag or final-human claim follows from the review task. |
 
 These tests do not exhaust Tibetan grammar or establish model-wide accuracy. Add a source-linked regression fixture whenever an approved glossary decision or recurring error exposes a new failure mode. Do not rewrite existing expected results solely because a model repeatedly disagrees with them.
 
@@ -652,7 +683,7 @@ If a report gives counts or rates, define the denominator and coverage. “No ex
 Use this instruction with this QC procedure, the translation guidance, current glossary, Tibetan source, draft, and supplied notes/decisions:
 
 ```text
-Task: QC under Tibetan–English LLM translation QC v2.0.2.
+Task: QC under Tibetan–English LLM translation QC v2.1.0.
 
 Review the draft independently against the supplied Tibetan, current glossary,
 and project decisions. Declare the exact scope and missing evidence. Preserve
@@ -677,8 +708,100 @@ user explicitly requests revision as well as QC.
 
 ## Source register and revision note
 
-Version 2.0.2 implements P2 as defined in Part I, updates the obsolete standalone-thugs references and R24, and adds R35–R57 for the approved additions and source-sensitive exclusions. All other R01–R34 fixtures and P1 rules remain unchanged. The 57 fixtures are specifications to run, not measured translation-model results.
+Version 2.1.0 adds P3: shared audit controls, a bounded Phase D using the existing QC method, and R58–R63. P1/P2 terminology is unchanged. R48 corrects the copied unresolved-source example to དངོས་མ; the other 56 earlier fixture rows are unchanged. The 63 fixtures are specifications, not measured translation-model results.
 
-G, E, T, D, and U1–U3 refer to the source/decision register in `tibetan_translation_guidance_v2.md`. G is the original 222-entry glossary; E is the expanded eight-column Markdown glossary; T is the supplied Tibetan source; D is the earlier English draft. File-line references identify locations in those supplied files, not independently verified editions.
+G, E, T, D, and U1–U3 refer to the source/decision register in Part I of this document. G is the original 222-entry glossary; E is the expanded eight-column Markdown glossary; T is the supplied Tibetan source; D is the earlier English draft. File-line references identify locations in those supplied files, not independently verified editions.
 
 This procedure supersedes the earlier QC assumptions that challenged **ordinary mind** merely as an addition, treated **intrinsic nature** as dispensable in grammatical constructions, or required the established **union of calm abiding and insight** to be rebuilt from its components. It preserves the real checks for wrong verbs, defective sentence relationships, omitted material, and unmarked uncertainty without promoting unresolved replacements.
+
+---
+
+<a id="post-translation-review"></a>
+
+# Part III — Post-translation review of a completed English work
+
+**Phase D · Version 2.1.0 · 5 October 2026**
+
+Use this phase when another agent receives an existing English translation for review. Parts I and II remain the terminology policy and Q1–Q9 review method; this part supplies the handoff, whole-work coverage, and completion contract. It is not a new translation, a new Tibetan edition, or an invitation to improve prose for taste. No issue thread or earlier chat is required to execute this contract.
+
+## 1. Fix the inputs and the authority to edit
+
+Record the reviewer/session, the English input commit or release, the governing golden Tibetan and pair-ID range, and the adopted glossary/standard commit and hashes in `translations/HANDOFF.md`. The reviewer must be distinct from the authoring run; changing a role label in the same drafting run is not independent review. Existing translator notes are evidence to assess, not findings to accept without checking.
+
+Use one common template snapshot across the four works. Adopt the glossary and standard explicitly before applying changed policy; inspect any newer owner-approved project decisions and record conflicts rather than overwriting them. Preserve the input English in Git history and the fixed Tibetan byte-for-byte. Do not replace a book's `DECISIONS.md`, status, or handoff with blank template records.
+
+Declare **review-only** or **review-and-revise**. A request only to review defaults to review-only: save the report and proposed changes without altering canonical English. When revision is authorized, record each finding before applying the smallest supported English/note correction. Neither mode authorizes source emendation, new shared terminology, unrelated rewriting, changing historical releases, or publishing a release tag.
+
+The expected input is a complete working translation, including titles, headings, closing material, and explicit unresolved/non-translatable markers. Missing material is a coverage finding, not a reason to claim completion from file names or release labels. Declare the finite chapter/pair inventory and existing queries at the outset; do not add an open-ended scan or witness-research project.
+
+## 2. Review the whole work, then check the changes
+
+1. **Read every pair in source order.** Apply Q1–Q9 to Tibetan and English together, including sentence continuations across pairs and chapters. Check speaker, subject, action, genitives, modifier attachment, negation, number, conditions, temporal scope, and rhetorical/instructional function. A concordance or a review of selected passages is not this full pass.
+2. **Check the terminology across the work.** Search all applicable glossary entries, attested forms, whole expressions, recurrent names and the shared controls in Part I §8.1. Search the reverse direction for collisions as well as Tibetan-to-English variation. Review source boundaries before classifying a hit; extend a confirmed pattern to all matching occurrences, not just the old example IDs.
+3. **Reconcile notes and reading continuity.** Check the current fixed source and current English before reusing an old finding. Keep source annotations, variants, editorial metadata and translator notes out of main text unless they actually belong there. Update active usage/notes when a policy is adopted, linking rather than rewriting historical records. An old proposal may now be approved; a documented proposal may still be wrong; a corrected historical finding must not be filed again. Read the English continuously for broken references, name drift, quotation boundaries and accidental fragments, while retaining source repetition and prose/verse differences.
+4. **Audit the proposed or applied corrections.** Recheck changed clauses and their neighbors against the Tibetan and full glossary rows. Verify that the fix has not lost a protected component, created an agent or causal relation, removed real repetition, resolved an uncertainty without evidence, or spread a local sense globally. When revising, regenerate dependent views from their declared canonical input rather than maintaining separately edited English versions.
+
+The reviewer may resolve a construction using evidence and the existing rules. When evidence remains insufficient, preserve a source-linked provisional treatment or exact unresolved span, state the alternatives and what would settle them, and continue. Do not halt the whole book on one term; do not quietly convert a local proposal into a shared default. Such questions belong in the completed review report and usage record, not solely in chat or an issue.
+
+## 3. Carry forward the audit lessons
+
+The following are mandatory checks where applicable. IDs are historical locator examples, not a claim that the current text is still defective. Inspect the current occurrence first. P1/P2 conditions in the glossary govern; the table does not introduce alternative defaults.
+
+| Audit groups | Check and representative evidence |
+| --- | --- |
+| G01 / G03 / G05 — lexical substitution | Keep **magical display**, **delusory appearance**, and **confident devotion** rather than miraculous display, delusive appearance, or aspiration and devotion at the governing source expressions. DTG-001188; DTG-001120/001459/001659/001727; DTG-001539. Distinguish exact compounds from expanded genitive forms; do not blacklist those English words globally. |
+| G02 / G08 — lost components | **Intrinsically / intrinsic abiding** can lose **intrinsic nature** (DTG-001760/002236); **virtuous minds** can lose **ordinary mind** (DTG-000426). Repair the complete construction, not by blindly appending the missing word. Longer compounds and names require their own boundary check. |
+| G04 / G06 — whole expressions | Preserve **sense gates** (DTG-002278/002393/002519), not freshly decomposed gates of faculties; preserve **self-recognition** (DTG-000906), not an unapproved explanatory synonym. An established whole expression governs before components. |
+| G07 / G09 / G10 — actual relationship and coverage | **Clinging** must not drift to attachment at the same governing expression (DTG-001117/001131). Check unrepresented **nature of phenomena** in the question at DTG-002109. Preserve **object of focus** and its syntactic role (DTG-001477/002071/002074); the separate words object and focus somewhere in a paragraph do not prove fidelity (DTG-000199/001227). |
+| G11 / G13 / G14 / G17 / G20 — approved sense and presentation rules | Apply literary **tantra**, auditory **sound**, botanical/sustained-metaphorical **fruit**, and technical **Ground / Ground-appearance** only under P1's conditions. Check titles and colophons as well as main text. Use **dharma embodiment** mid-sentence unless part of an actual title/name, not because the glossary display starts with a capital. Neither a nearby title nor a chapter-local convention decides the sense. |
+| G12 / G15 / G16 / G18 — source-dependent exceptions | Review logical **property** versus **nature of phenomena** (DTG-000304); physical move versus **vibration** (DTG-000852/002188; SMB-000047); separating versus the named **secret preliminary**, retaining any separately written distinguishing predicate (DTG-000127; SMB-000091); nominal apprehension versus **apprehending subject** and finite verbs (SMB-000063; BMD-000040). Preserve canonical labels; justify any provisional local exception under Part I §6. Different grammar is not automatically an error or an approved new synonym. |
+| G19 — overlapping qualifier | At MTP-000016/000404 and SMB-000087, an explicit རྡོ་རྗེ overlaps with English **vajra** inside **vajra chains**. Check the complete construction and the prior opposing notes. Neither mechanically duplicate vajra nor absorb meaningful additional qualification; record the supported relation or preserve its uncertainty. |
+| G21 — ordinary senses and short forms | Distinguish **doing** from activity in an actual action construction (DTG-000590/000770/001752), **abiding** from a temporal/locative remain (DTG-001513/001640), **knowing** from an interpretive understand (DTG-000780), and technical **adornment** from a physical ornament (DTG-001083). Do not force **dullness** on physical sinking (DTG-001186), accept examining for རྟོག་པ without checking it (DTG-001904), or expand a short primordial-knowing name by fuzzy matching (DTG-001751/001975). Record the local grammatical/sense disposition, not a pool of new canonical synonyms. |
+| U01–U44 — approved additions and shared controls | Read all relevant P2 rows, including conditions and provenance; apply Part I §8.1 to the remaining construction/lexical questions. Preserve the distinction between an approved label, a retention policy such as **citta**, and a resolved sentence. **Matter** may require explanation of a knowing/non-knowing contrast; **karmic being** is not assembled from the standalone ordinary-mind entry. Names and honorifics must not acquire new synonyms by chapter. |
+
+**False-positive controls:** whole compounds and homographic sequences are not standalone glossary hits. Examples include གླེང་གཞི (setting), དངོས་གཞི (main practice), ཡིད་ཆེས (conviction), ཉམས་སུ་བླང (a practice construction), and ཀྱེ་མ / རིག་པ rather than a boundary-crossing ignorance match. Keep faithful **clings**, **vibrate**, supported plurals, self-forms and normal articles. Do not equate རྟོག with རྟོགས or rewrite variant Tibetan spellings. Source-word explanations may deliberately unpack an otherwise fixed expression. An unlisted ordinary word or a stable unlisted technical rendering is not a new defect merely because a row is absent.
+
+**Historical controls:** BMD-000081 was already corrected to **self-purified**; Pearls chapter 4 received a fresh review of the preserved snapshot, not recovery of its lost later notes. Check commits and actual files rather than repeating obsolete findings. Coverage hashes, golden-source alignment, release labels and translator self-checks do not establish independent semantic review. A source-reconciliation pass may leave earlier English untouched. Unresolved citta/thugs and other source constructions remain visible until evidence supports their resolution.
+
+The examples come from the four-work audit snapshots: [DTG `3ae74a2`](https://github.com/Lotus-King-Translation/Dra-Thal-Gyur/tree/3ae74a2adaa734b6332e64bd2f905f25aec1044a/paired), [MTP `21fb131`](https://github.com/Lotus-King-Translation/Mu-Tig-Phreng-Ba/tree/21fb131912bf7ed161c08a70614702764464030d/paired), [SMB `dc48f4b`](https://github.com/Lotus-King-Translation/Sgron-Ma-Bar-Ba/tree/dc48f4b20ec9b6f3ec5f7e8769cd86f5c344af34/paired), and [BMD `8965e8b`](https://github.com/Lotus-King-Translation/Bkra-Shis-Mdzes-Ldan/tree/8965e8b8b89c396c58789ed83984540699c07be9/paired). Match the stable ID in `source.md` and `translation.md`, and follow its linked notes. The local current files govern the new review; inaccessible comparators are a reported limit, not authority to invent evidence. [P3]
+
+## 4. Deliver one review package and stop at the declared boundary
+
+Use the existing QC report and usage records; where no report exists, use `translations/REVIEW.md`. Reuse Part II §5's finding format. Do not create parallel ledgers for the same facts or verbose notes for every conforming occurrence.
+
+The package must record:
+
+- **Inputs and coverage:** reviewer, modes and pinned versions; expected and actually reviewed pair IDs/ranges by chapter, including closing material; unreviewed/missing ranges explicitly listed. Reviewed, changed and unresolved counts are different. Compact ranges or the existing coverage record are sufficient if gaps remain detectable.
+- **Findings and dispositions:** exact Tibetan, before/proposed-or-after English, rule/evidence and severity/confidence; corrected, justified no-change/rejected finding, or source-linked unresolved treatment. A repeated finding may use one explanation with every affected locus. Put genuinely new shared-label proposals together; do not edit the shared glossary independently in each book.
+- **Verification and handoff:** source hash and pair-ID/order preservation, active note links, dependent-view consistency, available validation/build results, targeted regression results with not-tested stated, and coverage/disposition under Part II §5.4. In revision mode recheck every changed clause; the reviewer's check of their own repair is not an additional independent review. Update `PROJECT-STATUS.md` and `translations/HANDOFF.md` with the remaining bounded work and commit the authorized outputs.
+
+**Review completion is not publication clearance.** A full pass is complete when every expected pair has actually been inspected and every finding has a recorded disposition. Unresolved but visibly represented material may yield **ready with explicit review flags**; uncorrected misleading errors yield **revision required**. Neither is a clean approval. Missing/unread pairs mean partial coverage. A human-final or release claim requires its separate evidence and existing release gate. Do not create or move tags merely to finish this review task.
+
+When four agents work in parallel, each owns one work and uses the same pinned policy. Their reports must expose new cross-work choices for shared disposition; no agent may silently publish a competing glossary. Each finishes its bounded report rather than waiting indefinitely for the other three. Cross-work reconciliation belongs to the coordinator before claiming the set is harmonized; it is not four additional translation projects.
+
+## 5. Copy-ready post-translation review instruction
+
+```text
+Task: POST_TRANSLATION_REVIEW under standard 2.1.0, Part III.
+
+Read AGENTS.md, the project status and translation handoff, the active glossary,
+this standard (Parts I–III), DECISIONS.md and FORMAT.md. Record the existing
+English input, fixed Tibetan, common policy snapshot and reviewer identity.
+Review every pair of the completed work in order, including titles, headings,
+closing material, annotations and unresolved spans. Apply Q1–Q9 and the shared
+controls in Part I §8.1; do not substitute a terminology scan for semantic review.
+
+Use review-only unless revision is explicitly authorized. In revision mode,
+record findings before the smallest supported English/note changes and recheck
+them against the Tibetan. Preserve fixed source, pair IDs, original input and
+historical releases. Keep generated views consistent with canonical English.
+Do not change shared glossary assignments or claim a local proposal is approved.
+
+Save one review package using Part II §5 and Part III §4, with exact coverage,
+findings, changes or proposed changes, justified no-change cases, unresolved
+questions and actual validation results. Update the existing status/handoff.
+Complete the available bounded pass without inventing resolutions, waiting on
+issue discussions, or expanding into new source research or a stylistic rewrite.
+Return the review commit/report and separate coverage from readiness. Do not
+publish a release tag or claim final human certification through this task.
+```

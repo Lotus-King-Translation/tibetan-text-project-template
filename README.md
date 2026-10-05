@@ -6,6 +6,7 @@ Organization template for projects that follow one controlled workflow:
 2. **Create a maintained golden Tibetan edition.**
 3. **Segment the fixed golden edition into reader-ready pairs with `format: prose|verse|h1|h2|h3`.**
 4. **Translate those fixed pairs.**
+5. **Have another reviewer check the completed English under Phase D.**
 
 The repository is intentionally opinionated. Source witnesses, modern transcripts, editorial decisions, the golden reading, and translations remain separate provenance layers. A released golden edition is a maintained reading of an explicitly chosen governing witness; it is not presented as an infallible reconstruction of an original text.
 
@@ -27,7 +28,7 @@ The current project state belongs in [PROJECT-STATUS.md](PROJECT-STATUS.md). Pha
 - editions/ — acquired scans, transcripts, and source register
 - source/ — immutable imported/source copies
 - diplomatic/ — golden-edition work, evidence, releases, and handoff
-- translations/ — translation work, evidence, releases, and handoff
+- translations/ — translation, completed-English review, evidence, releases, and handoff
 - paired/ — canonical paired source/translation files
 - guidelines/ — active editorial/translation standards
 - glossary/ — active eight-column terminology resource
@@ -35,9 +36,17 @@ The current project state belongs in [PROJECT-STATUS.md](PROJECT-STATUS.md). Pha
 
 Tracked empty subdirectories are included because they recur in every project.
 
+## Existing translations: review handoff
+
+Use **POST_TRANSLATION_REVIEW** in Part III of the existing translation standard, with Part I §8.1's shared controls. All reviewers use the same pinned template version. The glossary and standard contain the operative rules; the former audit issues are historical evidence, not required task instructions.
+
+Propagate `AGENTS.md`, `guidelines/tibetan_translation_standard_v2.md`, and `glossary/expanded_tibetan_english_glossary.csv` from one snapshot, reconciling any owner-approved local changes. Merge the active P1/P2/P3 records from `DECISIONS.md` and the review fields from `translations/HANDOFF.md`; do not overwrite a book's decisions, status or handoff with template placeholders. The top-level and workspace READMEs are optional navigation updates. Record adoption in the book's existing status/handoff. Do not copy template source/English placeholders or move historical tags.
+
 ## Completion model
 
 Work is released in bounded, versioned stages. A chapter or section is not “done” because a script ran or a large number of pages were inspected. A release gate requires explicit scope, closed decision queues, preserved uncertainty, reproducible outputs, validation, signoff, a fixed tag, a publication receipt, remote SHA verification, and a clean tree.
+
+Review coverage, unresolved findings and publication readiness are reported separately. A finished report may conclude revision required; it is not itself a new text release.
 
 Full scan proofreading, exhaustive manuscript collation, eclectic reconstruction, and new witness acquisition are separate research scopes unless a project explicitly adds them to its release contract.
 

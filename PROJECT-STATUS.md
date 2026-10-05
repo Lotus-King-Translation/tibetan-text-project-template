@@ -4,12 +4,12 @@ Keep this file short and current. Older detailed history belongs in phase handof
 
 ## Template maintenance — 5 October 2026
 
-The instance placeholders below remain uninitialized. This maintenance update is not a source-intake or translation claim.
+The instance placeholders below remain uninitialized. This maintenance record is not a claim that any book has been reviewed.
 
-- Active terminology: P2, 283 rows (222 preserved assignments plus 61 additions); translation standard 2.0.2.
-- Completed: U15–U44 template policies, earlier firm decisions, matter/karmic-being clarification, and 57 fixture specifications. See [P2 and validation](DECISIONS.md#terminology-expansion-2026-10-05).
-- Remaining: eight earlier groups need specific choices; honorific/title details and local source interpretations remain as recorded in P2. No sibling book has adopted this update through this task.
-- Next bounded action: resolve the remaining issue #1 choices or explicitly adopt this version in a selected book; preserve fixed source and historical releases.
+- Active terminology: unchanged P2 glossary, 283 rows; standard 2.1.0 with P3 shared controls and Phase D.
+- Completed: all 65 audit-group lessons captured in existing glossary/standard/decision records; post-translation reviewer entry point and handoff defined.
+- Ready for: propagation and one independent completed-English review per work. Source-dependent questions are handled explicitly by the review contract, not left in template tickets.
+- Next action: owner propagates the common snapshot and assigns the four reviewers. No sibling repository or release has been changed. See [P3](DECISIONS.md#post-translation-review-2026-10-05).
 
 ## Current state
 
@@ -46,6 +46,7 @@ Not yet defined.
 - exhaustive witness collation performed: false
 - eclectic/reconstructed-original edition intended: false
 - translation independent QC completed: false
+- post-translation review completed: false
 
 ## Next action
 

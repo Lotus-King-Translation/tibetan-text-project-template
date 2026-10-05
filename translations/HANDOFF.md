@@ -1,12 +1,10 @@
 # Translation handoff
 
-Update this file before handing translation or QC work to another agent.
+Update this file before handing translation, QC or completed-English review to another agent. Merge new template fields into populated project records; do not overwrite their history.
 
-## Template terminology baseline — P2
+## Template policy baseline — P3
 
-This records template maintenance, not completed translation or independent QC. Active glossary: **283 rows**, SHA-256 `f767cd8af409bc16a6ed41bb086d23d1f204cb6db76c48189c168a9a95401da7`; combined standard **2.0.2**, SHA-256 `c1b8e91dcfc858fa3b87bb0adba63f98b28ff273f350e34cf9d45e82951cfbbb`. [P2](../DECISIONS.md#terminology-expansion-2026-10-05) records 61 completed additions, the matter/karmic-being scope, validation and the remaining decisions. All 30 approved U15–U44 groups are encoded; historical book occurrences and unclear citta/thugs constructions are not thereby resolved. The 57 regression fixtures remain specifications, not model-performance results.
-
-Next finite terminology task: select the remaining explicit issue #1 choices, or adopt this pinned version in one book and review only its affected occurrences. No Tibetan/English release or tag is changed by this maintenance update. Instance-specific fields below remain to be populated.
+Use the same pinned template snapshot for all four reviews: P2 glossary **283 rows**, SHA-256 `f767cd8af409bc16a6ed41bb086d23d1f204cb6db76c48189c168a9a95401da7`; standard **2.1.0**, SHA-256 `dba2654f0790ffb3e3c59a71097588a11d18b0122d26a3e46beb82045d0cc32f`. [P3](../DECISIONS.md#post-translation-review-2026-10-05) defines Phase D, incorporated audit controls and propagation. The 63 regression fixtures are specifications, not measured model results. Template readiness is not completed book review.
 
 ## Fixed inputs
 
@@ -24,6 +22,21 @@ Next finite terminology task: select the remaining explicit issue #1 choices, or
 - unresolved translation notes:
 - provisional terminology usages:
 - independent QC performed: false
+
+## Post-translation review — Phase D
+
+- review mode: review-only / review-and-revise (record explicit revision authority)
+- reviewer/session and authoring run:
+- English input commit/release:
+- adopted common policy commit:
+- expected pair inventory by chapter, including closing material:
+- actually reviewed pair ranges / count:
+- unreviewed or missing ranges:
+- findings: corrected / justified no-change / unresolved (report links):
+- changed pairs rechecked and dependent views verified:
+- report path/commit and actual validation results:
+- coverage and text disposition (separate; Part II §5.4):
+- remaining bounded work / shared proposals:
 
 ## Release state
 

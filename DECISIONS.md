@@ -2,9 +2,40 @@
 
 Record explicit project-level decisions that change scope, source authority, terminology, release contracts, or workflow.
 
-Do not use this file for every locus-level editorial decision; those belong in the diplomatic decision ledgers.
+Do not use this file for every locus-level decision: source editorial decisions belong in the diplomatic ledgers; English review findings belong in the existing translation review/usage records.
 
 ## Active decisions
+
+<a id="post-translation-review-2026-10-05"></a>
+
+### 2026-10-05 — Capture issues #1/#2 and add completed-English review (P3)
+
+**Authorization:** the owner directed that the lessons in issues #1 and #2 be incorporated into the template rather than left pending in tickets, and that the guideline and AGENTS.md cover review of completed English by another agent. The owner will propagate the files and assign one reviewer to each of the four works. This task does not perform those reviews.
+
+**Implemented scope:** baseline `43b24b2781d9f278b413b5c833012e42758232d4`; standard **2.1.0**, Phase D in `AGENTS.md`, shared controls in Part I §8.1 and the executable review contract in Part III. Reuse Part II Q1–Q9, the existing finding/usage formats, status and handoff. No new workflow file, schema, validator, lexicon redesign or translation is introduced. The entire **283-row glossary is byte-for-byte unchanged**, including all original assignments and P1/P2 controls.
+
+**What replaces the pending-ticket dependency:** approved vocabulary stays in the CSV. The remaining U01–U14 questions are captured as explicit, reusable construction/family review controls, including the owner's preferences and exclusions; they are no longer dependent on issue comments or chat. Reviewers must examine them when encountered, record evidence and a local disposition or visible unresolved treatment, and return genuinely new shared-label proposals without activating competing book glossaries. This instruction authorizes the review process, not unspecified new English defaults. Uncertainty is an explicit review outcome, not a silent omission or reason to leave the entire task unprocessed.
+
+**Capture map (all 44 U groups and 21 G groups):**
+
+| Groups | Operative home |
+| --- | --- |
+| U01–U03 | Approved honorific/name CSV rows; Part I §8.1 full/short forms, unresolved honorific/title and recurring-name controls |
+| U04 / U09 / U11 / U14 / U15–U44 | P2 CSV assignments, conditions and source references; Part I §8.1 links and Part III §3 checks |
+| U05–U08 / U10 / U12–U13 | Part I §8.1's family/meditation/compound/means/two-truth/phrase/luster controls, with actual alternatives and comparator IDs |
+| G01–G10 | Existing protected terms plus Part III §3's lexical, component, whole-expression and omitted-relationship checks, with loci |
+| G11 / G13 / G14 / G17 / G20 | P1 CSV rules; Part I §9 and Part III §3 scope/capitalization/adoption checks |
+| G12 / G15 / G16 / G18 / G19 / G21 | Part III §3's source-dependent exception, qualifier, ordinary-sense and short-form checks under Part I §6 |
+
+**Phase D boundary:** freeze source/English/policy inputs and reviewer identity; distinguish review-only from authorized revision; inspect every pair including closing material; recheck corrections and derived outputs; preserve historical records. Reuse one report with exact coverage, before/after evidence, no-change cases, unresolved questions and actual tests. A completed review is not clean text approval, a new release, or human certification. Four agents may finish independently under one pinned policy; the coordinator handles cross-work reconciliation. No additional review stage is required merely to check the reviewer's own edits.
+
+**Issue disposition:** issues #1 and #2 may close as completed **template learning-capture** tasks once this commit is published and linked. Their audit bodies and comments remain historical evidence. This supersedes P1/P2's instruction to keep those template tickets open; it does not claim their example passages were corrected or their unresolved lexical interpretations approved. Work-specific findings now belong to the Phase D review package, not a new holding ticket.
+
+**Propagation:** adopt `AGENTS.md`, `guidelines/tibetan_translation_standard_v2.md`, and `glossary/expanded_tibetan_english_glossary.csv` from the same template snapshot. Merge P1/P2/P3 into each book's `DECISIONS.md` and add Phase D fields from `translations/HANDOFF.md`; preserve local decisions, populated status and history. The three updated READMEs are optional navigation changes. Update local `PROJECT-STATUS.md` for adoption without copying its template placeholders. No source/English placeholder, script, tag or source register needs propagation.
+
+**Validation:** all 44 U groups and 21 G groups are accounted for in the capture map and operative files. The full 283-row/eight-column glossary and 24 unrelated tracked files are unchanged; exactly eight existing documents changed, with no new tracked files. Relative links, section anchors, active version references and 72 distinct cited pair IDs were checked. Ten in-memory document-integrity corruption controls were rejected. The existing paired-template validator passed with zero placeholder pairs, and `git diff --check` passed. R58–R63 extend the existing section to 63 fixture specifications; R48 corrects a copied unresolved-source spelling, not a Tibetan edition; the other 56 prior fixture rows are unchanged. The new contract and controls were self-reviewed, not independently certified. No translation-model benchmark or new full-book semantic review was performed. No book/source/tag is changed by this patch.
+
+**Content identities:** glossary SHA-256 `f767cd8af409bc16a6ed41bb086d23d1f204cb6db76c48189c168a9a95401da7`; standard SHA-256 `dba2654f0790ffb3e3c59a71097588a11d18b0122d26a3e46beb82045d0cc32f`.
 
 <a id="terminology-expansion-2026-10-05"></a>
 
