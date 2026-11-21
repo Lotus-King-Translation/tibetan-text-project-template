@@ -2,11 +2,11 @@
 
 Keep this file short and current. Older detailed history belongs in phase handoffs and receipts.
 
-## Template maintenance — 5 October 2026
+## Template maintenance — 21 November 2026
 
 The instance placeholders below remain uninitialized. This maintenance record is not a claim that any book has been reviewed.
 
-- Active terminology: unchanged P2 glossary, 283 rows; standard 2.1.0 with P3 shared controls and Phase D.
+- Active terminology: unchanged P2 glossary, 283 rows; standard 2.1.1 with P3 shared controls, Phase D, and the approved [Part I §4 rule for competing Tibetan readings](DECISIONS.md#source-readings-2026-11-21).
 - Completed: all 65 audit-group lessons captured in existing glossary/standard/decision records; post-translation reviewer entry point and handoff defined.
 - Ready for: propagation and one independent completed-English review per work. Source-dependent questions are handled explicitly by the review contract, not left in template tickets.
 - Next action: owner propagates the common snapshot and assigns the four reviewers. No sibling repository or release has been changed. See [P3](DECISIONS.md#post-translation-review-2026-10-05).

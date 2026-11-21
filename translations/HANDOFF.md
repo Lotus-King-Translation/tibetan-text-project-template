@@ -2,7 +2,11 @@
 
 Update this file before handing translation, QC or completed-English review to another agent. Merge new template fields into populated project records; do not overwrite their history.
 
-## Template policy baseline — P3
+## Current template policy
+
+For new work, pin translation standard **2.1.1**, SHA-256 `a34282cc11e5eed2f729b73e954c9e5c5893172d32ffd1b99a30e2ce45d00390`, and the P2 glossary identified below. Part I §4 incorporates the [decision on competing Tibetan readings](../DECISIONS.md#source-readings-2026-11-21).
+
+## October four-book review baseline — P3
 
 Use the same pinned template snapshot for all four reviews: P2 glossary **283 rows**, SHA-256 `f767cd8af409bc16a6ed41bb086d23d1f204cb6db76c48189c168a9a95401da7`; standard **2.1.0**, SHA-256 `dba2654f0790ffb3e3c59a71097588a11d18b0122d26a3e46beb82045d0cc32f`. [P3](../DECISIONS.md#post-translation-review-2026-10-05) defines Phase D, incorporated audit controls and propagation. The 63 regression fixtures are specifications, not measured model results. Template readiness is not completed book review.
 

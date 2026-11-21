@@ -6,6 +6,14 @@ Do not use this file for every locus-level decision: source editorial decisions 
 
 ## Active decisions
 
+<a id="source-readings-2026-11-21"></a>
+
+### 2026-11-21 — Competing Tibetan readings
+
+The owner approved the Part I §4 rule after a passage-by-passage audit of *Instruction on Trekchö*, *Cloud Banks of Non-Conceptual Space*, and *The Heart of Definitive Meaning*. It applies to consequential differences of interpretation. The passage note in §7 carries any surviving alternative.
+
+Translation standard **2.1.1**, SHA-256 `a34282cc11e5eed2f729b73e954c9e5c5893172d32ffd1b99a30e2ce45d00390`.
+
 <a id="post-translation-review-2026-10-05"></a>
 
 ### 2026-10-05 — Capture issues #1/#2 and add completed-English review (P3)

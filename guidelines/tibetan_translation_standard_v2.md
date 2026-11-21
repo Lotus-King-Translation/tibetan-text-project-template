@@ -1,6 +1,6 @@
 # Tibetan–English LLM translation standard
 
-**Guidance, independent QC and post-translation review · Version 2.1.0 · 5 October 2026**
+**Guidance, independent QC and post-translation review · Version 2.1.1 · 21 November 2026**
 
 This document combines translation, independent QC and review of completed English works. Use it with the current eight-column glossary and the Tibetan source. It does not replace or alter the glossary.
 
@@ -24,7 +24,7 @@ The documents define a working LLM draft and review process, not a final human e
 
 # Part I — Translation guidance
 
-**Version 2.1.0 · 5 October 2026**
+**Version 2.1.1 · 21 November 2026**
 
 **Purpose:** a source-aligned, terminology-controlled, annotated working translation for subsequent human editing  
 **Companion:** Part II of this document
@@ -144,6 +144,8 @@ Apply owner-approved complete additions such as **karmic being** without reconst
 ## 4. Analysis and grammatical realization
 
 Read the glossary and the source together. Identify the source unit, complete expression, grammatical function, participants, modifier attachments, negation, reference, and instructional context before committing to an English sentence. Do not parse entirely in isolation from the project's terminology, then import generic equivalents afterward.
+
+When two plausible readings change what the text says or what the practitioner would do, identify the Tibetan feature that distinguishes them. Choose as far as that evidence allows. If a consequential alternative survives, record it at the passage and continue.
 
 Use these categories for actual occurrences:
 
@@ -310,7 +312,7 @@ Do not call an output complete when a passage has merely disappeared. An untrans
 Use this instruction with this guidance, the current glossary, the Tibetan source, and any explicit decision records:
 
 ```text
-Task: TRANSLATE under Tibetan–English LLM translation guidance v2.1.0.
+Task: TRANSLATE under Tibetan–English LLM translation guidance v2.1.1.
 
 Produce an annotated working translation of the supplied Tibetan, not a final
 stylistic rewrite. Treat the original glossary assignments as established.
@@ -360,7 +362,7 @@ No external doctrinal research was added to this guidance. General procedures an
 
 # Part II — Independent QC
 
-**Version 2.1.0 · 5 October 2026**
+**Version 2.1.1 · 21 November 2026**
 
 **Purpose:** independent, source-based quality control of a terminology-controlled LLM working draft  
 **Governing companion:** Part I of this document
@@ -683,7 +685,7 @@ If a report gives counts or rates, define the denominator and coverage. “No ex
 Use this instruction with this QC procedure, the translation guidance, current glossary, Tibetan source, draft, and supplied notes/decisions:
 
 ```text
-Task: QC under Tibetan–English LLM translation QC v2.1.0.
+Task: QC under Tibetan–English LLM translation QC v2.1.1.
 
 Review the draft independently against the supplied Tibetan, current glossary,
 and project decisions. Declare the exact scope and missing evidence. Preserve
@@ -708,6 +710,8 @@ user explicitly requests revision as well as QC.
 
 ## Source register and revision note
 
+Version 2.1.1 adds the Part I §4 rule for choosing between competing Tibetan readings and recording consequential uncertainty at the passage.
+
 Version 2.1.0 adds P3: shared audit controls, a bounded Phase D using the existing QC method, and R58–R63. P1/P2 terminology is unchanged. R48 corrects the copied unresolved-source example to དངོས་མ; the other 56 earlier fixture rows are unchanged. The 63 fixtures are specifications, not measured translation-model results.
 
 G, E, T, D, and U1–U3 refer to the source/decision register in Part I of this document. G is the original 222-entry glossary; E is the expanded eight-column Markdown glossary; T is the supplied Tibetan source; D is the earlier English draft. File-line references identify locations in those supplied files, not independently verified editions.
@@ -720,7 +724,7 @@ This procedure supersedes the earlier QC assumptions that challenged **ordinary 
 
 # Part III — Post-translation review of a completed English work
 
-**Phase D · Version 2.1.0 · 5 October 2026**
+**Phase D · Version 2.1.1 · 21 November 2026**
 
 Use this phase when another agent receives an existing English translation for review. Parts I and II remain the terminology policy and Q1–Q9 review method; this part supplies the handoff, whole-work coverage, and completion contract. It is not a new translation, a new Tibetan edition, or an invitation to improve prose for taste. No issue thread or earlier chat is required to execute this contract.
 
@@ -782,7 +786,7 @@ When four agents work in parallel, each owns one work and uses the same pinned p
 ## 5. Copy-ready post-translation review instruction
 
 ```text
-Task: POST_TRANSLATION_REVIEW under standard 2.1.0, Part III.
+Task: POST_TRANSLATION_REVIEW under standard 2.1.1, Part III.
 
 Read AGENTS.md, the project status and translation handoff, the active glossary,
 this standard (Parts I–III), DECISIONS.md and FORMAT.md. Record the existing
